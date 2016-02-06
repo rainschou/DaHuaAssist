@@ -8,4 +8,5 @@ I should write in chinese. Any way, chinese users are the most.
 开发流程记录在按键精灵的BBS上：
 http://bbs.anjian.com/showtopic-598496-1.aspx
 
-而每次迭代的代码放在这里
+而每次迭代的代码放在这里。
+只喜欢看代码的请在sources里，按照版本编号一个一个往下看。
