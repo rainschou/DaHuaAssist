@@ -1,0 +1,26 @@
+// 通用确认
+Dim xComfirm1 = 1065
+Dim xComfirm2 = 1100
+Dim yComfirm = 260
+
+// 买道具（师门，帮派）
+Dim xBuy1 = 985
+Dim xBuy2 = 1000
+Dim yBuy = 130
+
+//每论延迟
+Dim duration = 1000
+
+Function FindAndTap(y, x1, x2)
+  If GetPixelColor(y, x1) = GetPixelColor(y, x2) Then
+    Tap(y, x2)
+  End If
+End If
+
+Do
+  // 下一个任务
+  FindAndTap(yComfirm, xComfirm1, xComfirm2)
+  // 买道具
+  FindAndTap(yBuy, xBuy1, xBuy2)
+  Delay(duration)
+Loop
